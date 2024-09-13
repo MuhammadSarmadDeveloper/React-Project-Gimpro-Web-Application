@@ -1,0 +1,321 @@
+.background-video-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  
+  .background-video-1{
+    width: 100%;
+    height: 34rem;
+    margin-top: -90rem;
+    z-index: -1;
+    filter: blur(1px);
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+  .footer-div{
+    z-index:0;
+    position: relative;
+    top: -0.1rem;
+    display: flex;
+    gap: 0.5rem;
+    left: 1rem;
+    opacity: 0.7;
+
+    width: 98%;
+    height: 31.5rem;
+    background-color: black;
+  }
+  .side-logo{
+    position: relative;
+    left: 2rem;
+  }
+  .f-part1{
+      /* background-color: aqua; */
+      width: 17%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .f-part1>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .f-part2{
+    /* background-color: aqua; */
+    width: 17%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    position: relative;
+    top: 2.8rem;
+    flex-direction: column;
+    gap: 0.9rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .f-part2>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .f-part2>form>button>img{
+    width: 80px;
+    height: 40px;
+   
+  }
+  .f-part2>form>button>img:hover{
+   
+   cursor: pointer;
+  }
+  .f-part3{
+    /* background-color: aqua; */
+    width: 17%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   text-align: center;
+   justify-content: center;
+  }
+  .f-part3>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .f-part4{
+    /* background-color: aqua; */
+    width: 24%;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 3rem;
+    flex-direction: column;
+    gap: 0.9rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   text-align: center;
+   justify-content: center;
+  }
+  .f-part4>:nth-child(1){
+    color: var(--orange);
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  .f-part4>img{
+    width: 23px;
+    height: 22px;
+    position: relative;
+    left: 1rem;
+    top: 2rem;
+  }
+  .background-video-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    overflow: hidden;
+    z-index: -22; /* Ensure the video stays behind other content */
+  }
+  
+  .background-video-2{
+    width: 100%;
+    height: 102vh;
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+  .background-video-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-container{
+    display: flex;
+    gap: 2rem;
+    width: 21rem;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 1rem 1rem;
+    position: relative;
+    left: -1rem;
+    top: 4rem;
+  }
+   
+  .sub-container>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--lightgray);
+  }
+  .sub{
+    display: flex;
+    gap: 2rem;
+    width: 19rem;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 1rem 1rem;
+    position: relative;
+    left: -1rem;
+    top: 4rem;
+  }
+  
+  .sub>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--lightgray);
+  }
+  ::placeholder{
+    color: var(--lightgray);
+  }
+  .btn-j{
+    background-color: var(--orange);
+    color: white;
+    border-radius: 15px;
+  }
+  .bt{
+    background-color: white;
+    color: white;
+    border-radius: 5px;
+  }
+  .uli{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  @media screen and (max-width: 768px) {
+
+   .footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+  
+   .footer-div{
+    height: auto;
+    width: 304px;
+    position: relative;
+    left:6px;
+    opacity: 0.7;
+    top: -2rem;
+   }
+   .background-video-1{
+      opacity: 0;
+   }
+   .side-logo>img{
+    position: relative;
+    top: 2.2rem;
+    left: -2.7rem;
+   }
+
+.side-logo>.uli{
+  position: relative;
+  top: 2rem;
+  left: -2rem;
+  font-size: small;
+}
+.f-part1{
+  position: relative;
+  top: 4rem;
+  width: auto;
+  font-size: small;
+  height: auto;
+}
+.f-part2{
+  position: relative;
+  top: 6.8rem;
+  font-size: small;
+  width: auto;
+  height: auto;
+}
+.f-part2>form{
+  width: 16rem;
+  gap: 0;
+  height: 27px;
+  width: 236px;
+  position: relative;
+  left: 1px;
+  top: 10px;
+  border-radius: 0;
+}
+.f-part2>form>button{
+  width: 80px;
+  position: relative;
+  left: -1.4rem;
+  height: 40px;
+  top: -0.4rem;
+}
+.f-part2>form>button>img{
+ width: 70px;
+ position: relative;
+ left: -5px;
+ top: -2px;
+}
+.f-part3{
+  position: relative;
+  top: 3rem;
+  width: auto;
+  font-size: small;
+}
+.f-part4{
+  position: relative;
+  top: -6rem;
+  width: auto;
+  font-size: small;
+  
+}
+.f-part4>img{
+  position: relative;
+  left: 3.3rem;
+}
+.f-part4>img{
+  position: relative;
+  left: 1.6rem;
+}
+.f-part4>span{
+  position: relative;
+  left: 1rem;
+}
+.f-part4>form{
+  width: 16rem;
+  gap: 0;
+  height: 27px;
+  width: 236px;
+  position: relative;
+  left: 1px;
+  top: 10px;
+  border-radius: 0;
+}
+.f-part4>form>button{
+  width: 80px;
+  position: relative;
+  left: -1.4rem;
+  height: 40px;
+  top: -0.4rem;
+  font-size: small;
+}
+
+
+  }
+ 

@@ -1,0 +1,63 @@
+.Join{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 25rem;
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+  .left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+   }
+  .left-j>hr{
+    position: absolute;
+         width: 10.5rem;
+         border: 3px solid var(--orange);
+         border-radius: 20%;
+         margin: -10px 0 ;
+  }
+  .email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: grey;
+    padding: 1rem 2rem;
+  }
+  .email-container>input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--lightgray);
+  }
+  ::placeholder{
+    color: var(--lightgray);
+  }
+  .btn-j{
+    background-color: var(--orange);
+    color: white;
+  }
+  @media screen and (max-width:768px){
+    .Join{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+      margin-left: -1rem;
+      
+    }
+    .Join>.left-j{
+      font-size: 35px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 1rem;
+      margin-left: 28px;
+    }
+    .Join>.right-j{
+      margin-top: -22rem;
+      
+    }
+  
+  }
